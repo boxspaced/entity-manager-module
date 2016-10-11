@@ -1,0 +1,38 @@
+{
+    "name": "boxspaced/entity-manager-module",
+    "require": {
+        "php": "^5.4 || ^7.0",
+        "boxspaced/entity-manager": "dev-master",
+        "zendframework/zend-servicemanager": "^3.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.2"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/boxspaced/entity-manager"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Boxspaced\\EntityManagerModule\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Boxspaced\\EntityManagerModule\\Test\\": "tests/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin/",
+        "process-timeout": 1200
+    },
+    "extra": {
+        "zf": {
+            "module": "Boxspaced\\EntityManagerModule"
+        }
+    }
+}
