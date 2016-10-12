@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/entity-manager.git",
-                "reference": "cc9a9531fec58bf51abf42461f673e78497199c3"
+                "reference": "4d1935108dca66ca76733cce5663ee42f0493a82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/entity-manager/zipball/cc9a9531fec58bf51abf42461f673e78497199c3",
-                "reference": "cc9a9531fec58bf51abf42461f673e78497199c3",
+                "url": "https://api.github.com/repos/boxspaced/entity-manager/zipball/4d1935108dca66ca76733cce5663ee42f0493a82",
+                "reference": "4d1935108dca66ca76733cce5663ee42f0493a82",
                 "shasum": ""
             },
             "require": {
@@ -46,7 +46,7 @@
                 "source": "https://github.com/boxspaced/entity-manager/tree/master",
                 "issues": "https://github.com/boxspaced/entity-manager/issues"
             },
-            "time": "2016-10-08 09:32:14"
+            "time": "2016-10-12 09:08:52"
         },
         {
             "name": "container-interop/container-interop",
