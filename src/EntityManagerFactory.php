@@ -1,5 +1,5 @@
 <?php
-namespace Boxspaced\EntityManagerModule\Factory;
+namespace Boxspaced\EntityManagerModule;
 
 use Zend\ServiceManager\Factory\FactoryInterface;
 use Interop\Container\ContainerInterface;
@@ -10,8 +10,8 @@ class EntityManagerFactory implements FactoryInterface
 
     public function __invoke(ContainerInterface $container, $requestedName, array $options = null)
     {
-        $config = $container->get('configuration');
-        return new EntityManager($config['entity_manager']);
+        $config = $container->has('config') ? $container->get('config') : [];
+        return new EntityManager(isset($config['entity_manager']) ? $config['entity_manager'] : []);
     }
 
 }

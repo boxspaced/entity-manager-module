@@ -1,12 +1,8 @@
 {
     "name": "boxspaced/entity-manager-module",
     "require": {
-        "php": "^5.4 || ^7.0",
         "boxspaced/entity-manager": "dev-master",
         "zendframework/zend-servicemanager": "^3.1"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^4.2"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

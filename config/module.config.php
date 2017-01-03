@@ -1,8 +1,6 @@
 <?php
 namespace Boxspaced\EntityManagerModule;
 
-use Boxspaced\EntityManager\EntityManager;
-
 return [
     'entity_manager' => [
         'strict' => false,
@@ -17,7 +15,7 @@ return [
     ],
     'service_manager' => [
         'factories' => [
-            EntityManager::class => Factory\EntityManagerFactory::class,
+            EntityManager::class => EntityManagerFactory::class,
         ]
     ],
 ];
