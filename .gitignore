@@ -5,3 +5,4 @@
 /vendor/
 /bin/generate-deps-for-config-factory
 /bin/generate-factory-for-class
+/composer.lock
