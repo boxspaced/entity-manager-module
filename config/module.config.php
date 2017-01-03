@@ -1,6 +1,8 @@
 <?php
 namespace Boxspaced\EntityManagerModule;
 
+use Boxspaced\EntityManager\EntityManager;
+
 return [
     'entity_manager' => [
         'strict' => false,
