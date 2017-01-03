@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7dea94cc591cd17a1ba5616cd1618060",
-    "content-hash": "ac2e639de4a79aa544b0789ac7f65d67",
+    "hash": "06f43ee06befc18e22e40d0d323fa0a6",
+    "content-hash": "d2a996276b5ae349010c1c4a0f5a0725",
     "packages": [
         {
             "name": "boxspaced/entity-manager",
@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/entity-manager.git",
-                "reference": "8a4e869fae00b72673f75a5ca523f24a450f443f"
+                "reference": "85045b597bfe4567fa03ef3637cb5f39a8c41a8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/entity-manager/zipball/8a4e869fae00b72673f75a5ca523f24a450f443f",
-                "reference": "8a4e869fae00b72673f75a5ca523f24a450f443f",
+                "url": "https://api.github.com/repos/boxspaced/entity-manager/zipball/85045b597bfe4567fa03ef3637cb5f39a8c41a8e",
+                "reference": "85045b597bfe4567fa03ef3637cb5f39a8c41a8e",
                 "shasum": ""
             },
             "require": {
@@ -46,7 +46,7 @@
                 "source": "https://github.com/boxspaced/entity-manager/tree/master",
                 "issues": "https://github.com/boxspaced/entity-manager/issues"
             },
-            "time": "2017-01-03 15:37:14"
+            "time": "2017-01-03 15:51:10"
         },
         {
             "name": "container-interop/container-interop",
@@ -403,11 +403,11 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
         "boxspaced/entity-manager": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": []
